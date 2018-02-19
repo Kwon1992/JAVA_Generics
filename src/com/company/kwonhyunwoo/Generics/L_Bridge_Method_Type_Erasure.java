@@ -69,6 +69,8 @@ public class L_Bridge_Method_Type_Erasure {
 // -------------------------------------------------------------
 
 // as you can see after type erasure there is a Problem :  the setData() method arguments do ""NOT MATCH !!"""
+//                                                         (super에서는 Object를 parameter로 받는데 Child는 Integer를 parameter로 받아서 기존 Object에 더해 하나의 method가 overloading 되는 모습)
+//
 //		Java compiler is going to create an additional  method in order to solve this problem --> this is the ""bridge method""
 
 //class MyNode extends Node {
